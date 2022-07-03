@@ -1,0 +1,140 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+}
+.section_padding {
+	padding: 1px;
+}
+.section_heading {
+	margin-bottom: 40px;
+}
+.section_heading h2 {
+	color: #222;
+    text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	line-height: 100px;
+	text-transform: uppercase;
+    background-color:purple;
+}
+.section_heading h2 span {
+	color: #222;
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding:2px;
+}
+
+
+
+.container .search-box{
+    margin: 0 auto;
+    text-align: center;
+
+    font: bold 13px sans-serif;
+     max-width: 5000%;
+    position: relative;
+}
+.search-box input{
+    width: 60%;
+    box-sizing: border-box;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color:  #ffffff;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 15px 14px 40px;
+    border: 1px solid #b6c3cd;;
+    border-right: 0;
+    color:#4E565C;
+    outline: none;
+    -webkit-appearance: none;
+}
+.search-box i{
+        position: relative;
+        top: 5px;
+        left: 90px;
+        font-size: 16px;
+        color:black;
+    }
+.search-box button{
+
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border: 2px solid #b6c3cd;;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    color: #4E565C;
+    padding: 5px 22px;
+    margin-left: -4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.container .images .image-box{
+    position: relative;
+    height: 300px;
+    width: 210px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.images .image-box{
+    margin: 8px;
+}
+.images .image-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 0.2s linear;
+}
+.image-box:hover img{
+    transform: scale(1.05);
+}
+.image-box h6{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #9fa3b1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ color: #9fa3b1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #9fa3b1;
+}
+ 
+
+input { border: 0;
+background-color: #F5F5F5;
+border-radius: 10px;
+-webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+-o-appearance: none;
+appearance: none;
+text-align: left;
+width: 100%;
+height: 32px;        
+}
